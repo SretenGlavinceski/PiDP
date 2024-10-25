@@ -1,0 +1,18 @@
+# ninja log v5
+2	77	7515966860283654	CMakeFiles/pidp_lab1.dir/lab1_2.c.obj	47f7f5121f332112
+2	80	7515967559334201	pidp_lab1.exe	b2c0844bededfe59
+3	370	7515184731882065	CMakeFiles/pidp_lab1.dir/main.cpp.obj	53bb274558276203
+3	79	7515961568519302	CMakeFiles/pidp_lab1.dir/main.c.obj	c9c3fdbcb9f47ed0
+0	2347	7515972535011416	build.ninja	76ec9691d71e770
+3	314	7515189914612320	CMakeFiles/pidp_lab1.dir/program1.cpp.obj	f96dedc7c55177aa
+2	83	7515191211636793	CMakeFiles/pidp_lab1.dir/temp.c.obj	5f4274e606c25006
+1	70	7515964252269506	CMakeFiles/pidp_lab1.dir/lab1_1.c.obj	a4d00f398201cdfc
+0	87	7515967960787569	CMakeFiles/pidp_lab1_2.dir/lab1_2.c.obj	bb69477048acbf9a
+88	172	7515967961587334	pidp_lab1_2.exe	e604b5bab25fc27b
+1	75	7515969423141068	CMakeFiles/pidp_lab1_3.dir/lab1_3.c.obj	b9cbb5511244e03c
+75	155	7515969423912733	pidp_lab1_3.exe	a2d76aef2c183c07
+0	88	7515969521326419	CMakeFiles/pidp_lab1_4.dir/lab1_4.c.obj	a5c7b4d2eb50275a
+88	178	7515969522186064	pidp_lab1_4.exe	5ddc89243c7e3e0a
+4	2536	7515972535011416	build.ninja	76ec9691d71e770
+0	67	7515972536853903	CMakeFiles/pidp_lab1.dir/lab1/lab1_1.c.obj	b281efb796c26d5a
+68	147	7515972537608213	pidp_lab1.exe	a7141bb09abc64ec
