@@ -176,6 +176,108 @@ build pidp_lab1_4.exe: C_EXECUTABLE_LINKER__pidp_lab1_4_Debug CMakeFiles/pidp_la
   TARGET_IMPLIB = libpidp_lab1_4.dll.a
   TARGET_PDB = pidp_lab1_4.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target pidp_lab2_1
+
+
+#############################################
+# Order-only phony target for pidp_lab2_1
+
+build cmake_object_order_depends_target_pidp_lab2_1: phony || CMakeFiles/pidp_lab2_1.dir
+
+build CMakeFiles/pidp_lab2_1.dir/lab2/lab2_1.c.obj: C_COMPILER__pidp_lab2_1_Debug C$:/Users/glavi/pidp_lab1/lab2/lab2_1.c || cmake_object_order_depends_target_pidp_lab2_1
+  DEP_FILE = CMakeFiles\pidp_lab2_1.dir\lab2\lab2_1.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -isystem "C:/Program Files (x86)/Microsoft SDKs/MPI/Include"
+  OBJECT_DIR = CMakeFiles\pidp_lab2_1.dir
+  OBJECT_FILE_DIR = CMakeFiles\pidp_lab2_1.dir\lab2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target pidp_lab2_1
+
+
+#############################################
+# Link the executable pidp_lab2_1.exe
+
+build pidp_lab2_1.exe: C_EXECUTABLE_LINKER__pidp_lab2_1_Debug CMakeFiles/pidp_lab2_1.dir/lab2/lab2_1.c.obj | C$:/Program$ Files$ (x86)/Microsoft$ SDKs/MPI/Lib/x64/msmpi.lib
+  FLAGS = -g
+  LINK_LIBRARIES = "C:/Program Files (x86)/Microsoft SDKs/MPI/Lib/x64/msmpi.lib"  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\pidp_lab2_1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = pidp_lab2_1.exe
+  TARGET_IMPLIB = libpidp_lab2_1.dll.a
+  TARGET_PDB = pidp_lab2_1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target pidp_lab2_2
+
+
+#############################################
+# Order-only phony target for pidp_lab2_2
+
+build cmake_object_order_depends_target_pidp_lab2_2: phony || CMakeFiles/pidp_lab2_2.dir
+
+build CMakeFiles/pidp_lab2_2.dir/lab2/lab2_2.c.obj: C_COMPILER__pidp_lab2_2_Debug C$:/Users/glavi/pidp_lab1/lab2/lab2_2.c || cmake_object_order_depends_target_pidp_lab2_2
+  DEP_FILE = CMakeFiles\pidp_lab2_2.dir\lab2\lab2_2.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -isystem "C:/Program Files (x86)/Microsoft SDKs/MPI/Include"
+  OBJECT_DIR = CMakeFiles\pidp_lab2_2.dir
+  OBJECT_FILE_DIR = CMakeFiles\pidp_lab2_2.dir\lab2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target pidp_lab2_2
+
+
+#############################################
+# Link the executable pidp_lab2_2.exe
+
+build pidp_lab2_2.exe: C_EXECUTABLE_LINKER__pidp_lab2_2_Debug CMakeFiles/pidp_lab2_2.dir/lab2/lab2_2.c.obj | C$:/Program$ Files$ (x86)/Microsoft$ SDKs/MPI/Lib/x64/msmpi.lib
+  FLAGS = -g
+  LINK_LIBRARIES = "C:/Program Files (x86)/Microsoft SDKs/MPI/Lib/x64/msmpi.lib"  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\pidp_lab2_2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = pidp_lab2_2.exe
+  TARGET_IMPLIB = libpidp_lab2_2.dll.a
+  TARGET_PDB = pidp_lab2_2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target pidp_lab2_3
+
+
+#############################################
+# Order-only phony target for pidp_lab2_3
+
+build cmake_object_order_depends_target_pidp_lab2_3: phony || CMakeFiles/pidp_lab2_3.dir
+
+build CMakeFiles/pidp_lab2_3.dir/lab2/lab2_3.c.obj: C_COMPILER__pidp_lab2_3_Debug C$:/Users/glavi/pidp_lab1/lab2/lab2_3.c || cmake_object_order_depends_target_pidp_lab2_3
+  DEP_FILE = CMakeFiles\pidp_lab2_3.dir\lab2\lab2_3.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -isystem "C:/Program Files (x86)/Microsoft SDKs/MPI/Include"
+  OBJECT_DIR = CMakeFiles\pidp_lab2_3.dir
+  OBJECT_FILE_DIR = CMakeFiles\pidp_lab2_3.dir\lab2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target pidp_lab2_3
+
+
+#############################################
+# Link the executable pidp_lab2_3.exe
+
+build pidp_lab2_3.exe: C_EXECUTABLE_LINKER__pidp_lab2_3_Debug CMakeFiles/pidp_lab2_3.dir/lab2/lab2_3.c.obj | C$:/Program$ Files$ (x86)/Microsoft$ SDKs/MPI/Lib/x64/msmpi.lib
+  FLAGS = -g
+  LINK_LIBRARIES = "C:/Program Files (x86)/Microsoft SDKs/MPI/Lib/x64/msmpi.lib"  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\pidp_lab2_3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = pidp_lab2_3.exe
+  TARGET_IMPLIB = libpidp_lab2_3.dll.a
+  TARGET_PDB = pidp_lab2_3.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -210,6 +312,12 @@ build pidp_lab1_3: phony pidp_lab1_3.exe
 
 build pidp_lab1_4: phony pidp_lab1_4.exe
 
+build pidp_lab2_1: phony pidp_lab2_1.exe
+
+build pidp_lab2_2: phony pidp_lab2_2.exe
+
+build pidp_lab2_3: phony pidp_lab2_3.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -218,7 +326,7 @@ build pidp_lab1_4: phony pidp_lab1_4.exe
 #############################################
 # Folder: C:/Users/glavi/pidp_lab1/cmake-build-debug
 
-build all: phony pidp_lab1.exe pidp_lab1_2.exe pidp_lab1_3.exe pidp_lab1_4.exe
+build all: phony pidp_lab1.exe pidp_lab1_2.exe pidp_lab1_3.exe pidp_lab1_4.exe pidp_lab2_1.exe pidp_lab2_2.exe pidp_lab2_3.exe
 
 # =============================================================================
 # Built-in targets
