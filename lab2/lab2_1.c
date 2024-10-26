@@ -6,7 +6,7 @@ int main(int argc, char **argv) {
 
     MPI_Init(NULL, NULL);
 
-    char string[4] = "ABC";
+    char string[3] = "ABC";
 
     int world_size;
     MPI_Comm_size(MPI_COMM_WORLD, &world_size);
