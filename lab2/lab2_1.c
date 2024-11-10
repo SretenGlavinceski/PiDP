@@ -1,12 +1,11 @@
 #include <mpi.h>
 #include <stdio.h>
-#include <string.h>
 
 int main(int argc, char **argv) {
 
     MPI_Init(NULL, NULL);
 
-    char string[3] = "ABC";
+    char string[4] = "ABC";
 
     int world_size;
     MPI_Comm_size(MPI_COMM_WORLD, &world_size);

@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "pidp_lab2_3.exe"
+			"path" : "pidp_lab1.exe"
 		},
 		{
-			"path" : "pidp_lab2_3.pdb"
+			"path" : "pidp_lab1.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -32,7 +32,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 12,
+				"line" : 6,
 				"parent" : 0
 			},
 			{
@@ -60,7 +60,7 @@
 			{
 				"command" : 4,
 				"file" : 0,
-				"line" : 20,
+				"line" : 16,
 				"parent" : 0
 			}
 		]
@@ -89,7 +89,7 @@
 			]
 		}
 	],
-	"id" : "pidp_lab2_3::@6890427a1f51a3e7e1df",
+	"id" : "pidp_lab1::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -114,8 +114,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "pidp_lab2_3",
-	"nameOnDisk" : "pidp_lab2_3.exe",
+	"name" : "pidp_lab1",
+	"nameOnDisk" : "pidp_lab1.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -136,7 +136,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "lab2/lab2_3.c",
+			"path" : "lab1/lab1_1.c",
 			"sourceGroupIndex" : 0
 		}
 	],
